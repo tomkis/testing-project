@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/app
+    steps:
+      - checkout
+      - run:
+          name: Yarn install
+          command: yarn
