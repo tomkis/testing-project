@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUILD="tomkis/centralhub:$CIRCLE_BUILD_NUM"
+BUILD="tomkis/testing-project:$CIRCLE_BUILD_NUM"
 
 docker build -t "$BUILD" .
 
